@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+@CrossOrigin(origins="https://app-dummy123.herokuapp.com")
 public class StudentController {
 
     List<Student> students = new ArrayList<>(
